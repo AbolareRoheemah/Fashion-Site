@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+#bkgdColor{
+    background-color: #9575CD;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.topPic {
+    /* background-image: url("img/samson-ejim-CPNPcCAeuaI-unsplash-removebg-preview.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+div#topgrid{
+    /* float: right; */
+    padding-bottom: 0px;
+}
+p.headingText{
+    text-align: center;
+    /* padding-bottom: 10px; */
+    text-transform: uppercase;
+    font-family: serif sans-serif Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+p.headingText span.heading{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: whitesmoke;
+}
+div#row2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+div#push{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    background-size: 100%;
+}
+div#four{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D1C4E9;
+    position: relative;
+}
+p.heading2{
+    text-transform: uppercase;
+    padding-top: 400px;
+}
+p.para{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+div#paint{
+    background-image: url("img/ussama-azam-5IcEBmSOQq0-unsplash-removebg-preview.png");
+    background-repeat: no-repeat;
+}
+.headingpara{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-transform: capitalize;
+}
+p#price{
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0px;
+    /* left: 50%; */
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-radius: 9px;
+}
+p.para2{
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 20px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 0.5em;
+}
+#span2 {
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em !important;
+}
+p.lorem {
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div#lastdiv{
+    background-color: #D1C4E9;
+    padding: 10% 6%;
+}
+.footer {
+    background-color: #9575CD;
+    padding-top: 10px;
+}
+.social {
+    color: #eae3f8;
+    /* font-weight: bold; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+.soc {
+    color: #eae3f8;
+    margin-left: 10px;
+}
+.footertitle {
+    color: blue;
+}
+.copy {
+    color: #eae3f8;
+}
+a#mylink:hover{
+    background-color: #9575CD;
+    padding: 8px;
+    margin: 0px;
+    color: #eae3f8;
+}
