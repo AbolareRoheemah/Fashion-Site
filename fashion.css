@@ -39,13 +39,23 @@ div#push{
     padding: 0px;
     margin: 0px;
     text-align: left;
+    height: inherit;
     background-size: 100%;
+    border-radius: 10px;
+}
+div#third-div {
+    padding: 0px;
+    margin: 0px;
+    background-size: 100%;
+    background-color: #D1C4E9;
+    border-radius: 10px;
 }
 div#four{
     margin: 0px;
     padding: 0px;
     background-color: #D1C4E9;
     position: relative;
+    background-size: 100%;
 }
 p.heading2{
     text-transform: uppercase;
@@ -99,8 +109,9 @@ p.lorem {
     padding-bottom: 20px;
 }
 div#lastdiv{
-    background-color: #D1C4E9;
-    padding: 10% 6%;
+    /* background-color: #D1C4E9; */
+    padding: 10% 10%;
+    border-radius: 10px;
 }
 .footer {
     background-color: #9575CD;
@@ -108,9 +119,7 @@ div#lastdiv{
 }
 .social {
     color: #eae3f8;
-    /* font-weight: bold; */
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
 }
 .soc {
     color: #eae3f8;
@@ -122,9 +131,22 @@ div#lastdiv{
 .copy {
     color: #eae3f8;
 }
-a#mylink:hover{
+a#mylink:hover, a#mylink:active{
     background-color: #9575CD;
     padding: 8px;
     margin: 0px;
-    color: #eae3f8;
+    color: floralwhite;
 }
+a#mylink {
+    font: 1.2em;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+

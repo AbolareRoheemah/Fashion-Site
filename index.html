@@ -13,14 +13,14 @@
     <title>Pearls of Passion</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">POP</a>
+        <a class="navbar-brand" href="#">PoP</a>
       
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" id="mylink" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -34,17 +34,14 @@
                 <a class="nav-link" id="mylink" href="#">Blog</a>
               </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          <button class="btn btn-outline-secondary my-2 my-sm-0" type="button">All Collections</button>
         </div>
       </nav>
       <!-- End of navigation -->
       <header class="jumbotron" id="bkgdColor">
       <div class="container">
         <div class="row row-content  align-items-center topPic">
-              <div id="topgrid" class="order-sm-last col-md-5 d-none d-sm-block">
+              <div id="topgrid" class="order-sm-last col-md-5 d-sm-none d-md-block">
                  <img src="img/samson-ejim-CPNPcCAeuaI-unsplash-removebg-preview.png" alt=""> 
               </div>
               <div class="col-auto col-sm-12 col-md order-sm-first">
@@ -62,20 +59,20 @@
           <div class="col col-sm col-md">
             <div class="row">
             <div class="col-6" id="four"><p class="headingpara">abaya collection <br><input class="btn btn btn-light btn-lg firstBtn" type="button" value="View More"></p></div>
-            <div class="col-6" id="four"><a href="#"><img src="img/new1.jpg" alt="" width="100%" height="auto"><p id="price">$400</p></a></div>
-            <div class="col-6" id="four"><a href="#"><img src="img/cassandra1.jpg" alt="" width="100%" height="auto"><p id="price">$400</p></a></div>
-            <div class="col-6" id="four"><a href="#"><img src="img/hijab1.jpg" alt="" width="100%" height="auto"><p id="price">$400</p></a></div>
+            <div class="col-6" id="four"><a href="#"><img src="img/new1.jpg" alt="" width="100%" height="100%"><p id="price">$400</p></a></div>
+            <div class="col-6" id="four"><a href="#"><img src="img/cassandra1.jpg" alt="" width="100%" height="100%"><p id="price">$400</p></a></div>
+            <div class="col-6" id="four"><a href="#"><img src="img/hijab1.jpg" alt="" width="100%" height="100%"><p id="price">$400</p></a></div>
             </div>
           </div>
         </div>
         <!-- third row -->
-        <div class="row">
-          <div class="col-sm-6 align-items-center" id="lastdiv">
+        <div class="row" id="third-div">
+          <div class="col-12 col-sm-12 col-md-5 align-items-center" id="lastdiv">
               <p class="para2">world class fashion <br><span id="span2">Assesories for her</span><hr width="10%"></p>
               <p class="lorem">ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit culpa id, <br><input class="btn btn btn-light btn-lg align-self-center mt-4" type="button" value="View More"></p>
           </div>
-          <div class="col-sm d-none d-sm-block">
-                <img src="img/hush-naidoo-1vBexPeDD3o-unsplash_new-removebg-preview.png" alt="" class="mx-auto d-block">
+          <div class="col-md d-sm-none d-md-block">
+                <img src="img/hush-naidoo-1vBexPeDD3o-unsplash_new-removebg-preview.png" alt="" >
           </div>
         </div>
       </div>
@@ -83,7 +80,7 @@
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="links offset-1 col-5 col-sm-4">
+            <div class="links col-5 col-md-4">
               <h4 class="footertitle">Information</h4>
               <ul class="list-unstyled">
                 <li><a href="#" class="social"> Top Sellers</a></li>
@@ -94,7 +91,7 @@
                 <li><a href="#" class="social">Blog</a></li>
               </ul>
             </div>
-            <div class="address col-6 col-sm-4">
+            <div class="address col-6 col-md-4">
               <h4 class="footertitle">Store Information</h4>
               <ul class="list-unstyled social">
                 <li>
@@ -112,7 +109,7 @@
                 </li>
               </ul>
                 </div>
-                <div class="connect col-12 col-sm">
+                <div class="connect col-12 col-md">
                   <h4 class="footertitle">Connect With Us</h4>
                   <div class="row align-items-center">
                     <div class="col-4"><a href="http://google.com/+" class="social"><i class="fab fa-google-plus-square fa-2x soc"></i>Google+</a></div>
